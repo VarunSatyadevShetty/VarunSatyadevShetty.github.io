@@ -111,13 +111,13 @@ h2 {
 
 .one {
   width: 160px;
-  height: 200px;
+  height: 160px;
   position: relative;
 }
 
 .two {
   width: 160px;
-  height: 200px;
+  height: 160x;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -145,46 +145,4 @@ span.highlight {
 
 .highlightcolor {
   color: red;
-}
-
-
-.container{
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-.container span{
-  display: block;
-}
-.text1{
-  color: white;
-  font-size: 70px;
-  font-weight: 700;
-  letter-spacing: 8px;
-  margin-bottom: 20px;
-  background: yellowgreen;
-  position: relative;
-  animation: text 3s 1;
-}
-.text2{
-  font-size: 30px;
-  color: darkgreen;
-  font-family: Georgia, serif;
-}
-@keyframes text{
-  0%{
-      color: black;
-      margin-bottom: -40px;
-  }
-  30%{
-      letter-spacing: 25px;
-      margin-bottom: -40px;
-      }
-  85%{
-      letter-spacing: 8px;
-      margin-bottom: -40px;
-  }
 }
