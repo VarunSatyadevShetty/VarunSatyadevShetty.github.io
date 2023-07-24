@@ -138,3 +138,11 @@ span.highlight {
   overflow:scroll;
   height:330px;
 }
+
+.headingcolor {
+  color: blue;
+}
+
+.highlightcolor {
+  color: red;
+}
