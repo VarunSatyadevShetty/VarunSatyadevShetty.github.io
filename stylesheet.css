@@ -164,13 +164,11 @@ span.highlight {
   font-weight: 700;
   letter-spacing: 8px;
   margin-bottom: 20px;
-  background: yellowgreen;
   position: relative;
   animation: text 3s 1;
 }
 .text2{
   font-size: 30px;
-  color: darkgreen;
   font-family: Georgia, serif;
 }
 @keyframes text{
